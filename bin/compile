@@ -103,6 +103,7 @@ cat > $INSTALL_DIR/policy.xml <<EOF
 EOF
 
 # update PATH and LD_LIBRARY_PATH
+# from william
 echo "-----> Updating environment variables"
 PROFILE_PATH="$BUILD_DIR/.profile.d/imagemagick.sh"
 ACTUAL_INSTALL_PATH="$HOME/vendor/imagemagick"
